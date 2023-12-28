@@ -207,16 +207,16 @@ local_search:
 # ---------------------------------------------------------------------------------------
 comment:
   enable: false   # Option values: true | false
-  use:      # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  use: valine     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
   # See: https://github.com/xCss/Valine
   #      https://valine.js.org
   valine:
-    appid: zFn5vdvLMkKniBaA0wDynXfm-gzGzoHsz          # Your leancloud application appid
-    appkey: DdyeAXVJrfBQKlvvRPnOfS0B         # Your leancloud application appkey
-    server_urls: https://zfn5vdvl.lc-cn-n1-shared.com    # Your Server URL
-    placeholder: 不吝惜每一次好奇心，不浪费每一次为梦想前行的机会    # Input box placeholder
+    appid:           # Your leancloud application appid
+    appkey:          # Your leancloud application appkey
+    server_urls:     # Your Server URL
+    placeholder:     # Input box placeholder
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
