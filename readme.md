@@ -1,9 +1,9 @@
 # Maintainer Information
-name: Cat Bayi
-email: Cat_Bayi@163.com
-Use language: Chinese or English
-Country: China
-time zone: Asia/Shanghai
+name: Cat Bayi<br>
+email: Cat_Bayi@163.com<br>
+Use language: Chinese or English<br>
+Country: China<br>
+time zone: Asia/Shanghai<br>
 
 You need to pay attention:
 - China cannot use X (Twitter), Facebook, LinkedIn and other commonly used social media platforms or websites in China.
