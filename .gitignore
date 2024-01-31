@@ -5,10 +5,7 @@ db.json
 node_modules/
 public/
 .deploy*/
-<<<<<<< HEAD
 _multiconfig.yml
 ./history
 *.code-workspace
-=======
 _multiconfig.yml
->>>>>>> b7753c209ace3c6b0385e2023482d3369eb3f69a
