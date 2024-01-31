@@ -1,14 +1,17 @@
-$tag-name-font-size = 1.5rem
+$tag-name-font-size = 1.6rem
 
 .tag-container {
 
-  keep-container(1, 2rem, 2rem)
+  keep-container(false, 0, 0, 2rem, 2rem)
 
   .tag-name {
-    margin-bottom var(--components-spacing)
+    margin-bottom $component-spacing-value
+    padding-bottom 20px
     color var(--text-color-2)
+
     font-weight 600
     font-size $tag-name-font-size
+    border-bottom 1px solid var(--border-color)
 
     i {
       color var(--text-color-2)

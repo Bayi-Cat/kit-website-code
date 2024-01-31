@@ -1,6 +1,6 @@
 @import "code-theme.styl"
 
-.code-block {
+$code-block {
   margin 1.5rem 0
   padding 0
   overflow auto
@@ -17,21 +17,17 @@ code {
   font-family "Source Code Pro", consolas, Menlo
 }
 
-
 code {
-  box-sizing border-box
-  padding 0.3rem 0.4rem
+  padding 0.4rem
   color var(--code-foreground)
-  font-size 0.88rem
+  font-size 0.96rem
   word-wrap break-word
   background var(--code-background)
-  border 0.1rem solid var(--code-border-color)
-  border-radius 0.3rem
+  border-radius 0.2rem
 }
 
-
 pre {
-  @extend .code-block
+  @extend $code-block
   padding 0.6rem
 
   code {
@@ -42,10 +38,8 @@ pre {
   }
 }
 
-
 .highlight {
-  @extend .code-block
-
+  @extend $code-block
   border-bottom-right-radius 0.1rem
   border-bottom-left-radius 0.1rem
 
@@ -69,10 +63,8 @@ pre {
     border none
   }
 
-
   figcaption {
-    box-sizing border-box
-    padding 0.5rem
+    margin-bottom 1rem
     color var(--highlight-foreground)
     font-size 1rem
     line-height 1rem
@@ -80,14 +72,12 @@ pre {
     a {
       float right
       color var(--highlight-foreground)
-      font-size 0.9rem
 
       &:hover {
         border-bottom-color var(--highlight-foreground)
       }
     }
   }
-
 
   .gutter pre {
     padding-right 0.6rem
@@ -97,14 +87,12 @@ pre {
     background-color var(--highlight-gutter-bg-color)
   }
 
-
   .code pre {
     width 100%
     padding-right 0.6rem
     padding-left 0.6rem
     background-color var(--highlight-background)
   }
-
 
   .line {
     height 1.5rem
@@ -135,7 +123,6 @@ pre {
   }
 }
 
-
 .gist table {
   width auto
 
@@ -144,23 +131,20 @@ pre {
   }
 }
 
-
 pre .deletion {
   background var(--highlight-deletion)
 }
-
 
 pre .addition {
   background var(--highlight-addition)
 }
 
-
 pre .meta {
   color var(--highlight-purple)
 }
 
-
 pre {
+
   .comment {
     color var(--highlight-comment)
   }
