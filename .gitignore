@@ -7,5 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 ./history
-*.code-workspace
 _multiconfig.yml
+*.code-workspace
