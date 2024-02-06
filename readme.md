@@ -1,5 +1,5 @@
 # Maintainer Information
-name: Cat Bayi<br>
+name: [@Bayi_Cat](https://github.com/Bayi-Cat)<br>
 email: Cat_Bayi@163.com<br>
 Use language: Chinese or English<br>
 Country: China🇨🇳<br>
